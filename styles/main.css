@@ -7,6 +7,23 @@ body {
     color: #FFF;
 }
 
+body.dark {
+    background-color: #FFF;
+    color: #000;
+    .content {
+        background: linear-gradient(-45deg, #0B494F, #D7F9F1, #EDF2F4, #E9AFA3);
+        outline: 1px solid #000;
+        background-size: 400% 400%;
+        animation: gradient 10s ease infinite;
+    }
+    .box {
+        border: 1px solid #000;
+    }
+    .box.selected {
+        background-color: #000;
+    }
+}
+
 .content {
     position: absolute;
     top: 50%;
@@ -18,8 +35,9 @@ body {
     outline: 1px solid #FFF;
     background: linear-gradient(-45deg, #0B494F, #333333, #0F0A0A, #A31621);
     background-size: 400% 400%;
-    animation: gradient 15s ease infinite;
+    animation: gradient 10s ease infinite;
 }
+
 
 @keyframes gradient {
     0% {
@@ -248,5 +266,31 @@ body {
     .project-about {
         width: 200px;
     }
+}
 
+.theme-selector {
+    position: absolute;
+    display: flex;
+    top: 50%;
+    left: 0;
+    transform: translate(-63%, -50%) rotate(-90deg);
+    font-weight: 300;
+}
+
+.theme {
+    display: flex;
+    align-items: center;
+}
+
+.box {
+    float: left;
+    height: 0.6rem;
+    width: 0.6rem;
+    border: 1px solid #FFF;
+    clear: both;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.box.selected {
+    background-color: #FFF;
 }

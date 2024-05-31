@@ -57,3 +57,23 @@ projectsButton.addEventListener('click', handleProjectsClick);
 contactButton.addEventListener('click', handleContactClick);
 resumeButton.addEventListener('click', handleResumeClick);
 faqButton.addEventListener('click', handleFaqClick);
+
+const lightThemeButton = document.getElementById('light-box');
+const darkThemeButton = document.getElementById('dark-box');
+
+
+
+function handleLightTheme() {
+    darkThemeButton.classList.remove('selected');
+    this.classList.add('selected');
+    document.body.classList.add('dark');
+}
+
+function handleDarkTheme() {
+    lightThemeButton.classList.remove('selected');
+    this.classList.add('selected');
+    document.body.classList.remove('dark');
+}
+
+lightThemeButton.addEventListener('click', handleLightTheme);
+darkThemeButton.addEventListener('click', handleDarkTheme);
