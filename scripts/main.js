@@ -77,3 +77,29 @@ function handleDarkTheme() {
 
 lightThemeButton.addEventListener('click', handleLightTheme);
 darkThemeButton.addEventListener('click', handleDarkTheme);
+
+const typewriterText = "Josip Begić";
+const typewriterElement = document.getElementById('typewriter');
+
+function typeWriter(text, element, delay = 100) {
+    let i = 0;
+    function type() {
+        if (i < text.length) {
+            element.innerHTML += text.charAt(i);
+            i++;
+            setTimeout(type, delay);
+        } else {
+            setTimeout(hideLoader, 1000);
+        }
+    }
+    type();
+}
+
+function hideLoader() {
+    document.querySelector('.loader-container').style.display = 'none';
+    document.querySelector('.content').style.display = 'block';
+}
+
+window.onload = function() {
+    typeWriter(typewriterText, typewriterElement);
+}

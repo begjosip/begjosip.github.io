@@ -25,7 +25,37 @@ body.dark {
     }
 }
 
+.typewriter {
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 0.05em solid #FFF;
+    animation: caret 1s steps(1) infinite;
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+@keyframes caret {
+    50% {
+        border-color: transparent;
+    }
+}
+
+.loader-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #000;
+    z-index: 1000;
+}
+
 .content {
+    display: none;
     position: absolute;
     top: 50%;
     left: 50%;
