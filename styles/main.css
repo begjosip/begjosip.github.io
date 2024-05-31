@@ -31,7 +31,7 @@ body.dark {
     white-space: nowrap;
     border-right: 0.05em solid #FFF;
     animation: caret 1s steps(1) infinite;
-    font-size: 1rem;
+    font-size: 2rem;
     font-weight: 300;
 }
 
@@ -51,7 +51,7 @@ body.dark {
     top: 0;
     left: 0;
     background-color: #000;
-    z-index: 1000;
+    z-index: 2000;
 }
 
 .content {
