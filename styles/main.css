@@ -39,10 +39,6 @@ body {
     height: calc(100% - 6em);
 }
 
-.left-container {
-    min-width: 400px;
-}
-
 .title-container {
     display: flex;
     flex-direction: column;
@@ -55,11 +51,11 @@ body {
 }
 
 .headline {
-    font-size: 64px;
+    font-size: 3em;
 }
 
 .subheadline {
-    font-size: 14px;
+    font-size: 1em;
     letter-spacing: 1px;
 }
 
@@ -78,7 +74,7 @@ body {
 
 .nav-item {
     display: inline-block;
-    font-size: 14px;
+    font-size: 1em;
     margin: 0.8em;
     list-style: none;
     cursor: pointer;
@@ -119,17 +115,17 @@ body {
 .about-paragraph {
     width: 180px;
     font-weight: 300;
-    font-size: 14px;
+    font-size: .8em;
 }
 
 .projects-subtitle {
-    font-size: 12px;
+    font-size: 0.8em;
     padding: 1em 0 1em 0;
 }
 
 .project-title {
     font-weight: 600;
-    font-size: 32px;
+    font-size: 2em;
     cursor: pointer;
 }
 
@@ -138,14 +134,14 @@ body {
     color: inherit;
     font-style: italic;
     font-weight: 300;
-    font-size: 14px;
+    font-size: 1em;
 }
 
 .project-about {
-    max-width: 500px;
+    max-width: 70%;
     display: block;
     font-weight: 300;
-    font-size: 14px;
+    font-size: 1.5em;
 }
 
 .contact {
@@ -161,13 +157,12 @@ body {
 
 .question-asked {
     font-weight: 600;
-    font-size: 14px;
+    font-size: 1em;
 }
 
 .answer {
-    max-width: 500px;
     font-weight: 300;
-    font-size: 14px;
+    font-size: 0.8em;
     padding-bottom: 2em;
 }
 
@@ -187,31 +182,31 @@ body {
     }
 
     .headline {
-        font-size: 42px;
+        font-size: 2em;
     }
 
     .subheadline {
-        font-size: 12px;
+        font-size: 1em;
     }
 
     .nav-item {
-        font-size: 12px;
+        font-size: 0.8em;
     }
 
     .project-title {
-        font-size: 24px;
+        font-size: 1em;
     }
 
     .project-about {
-        font-size: 12px;
+        font-size: 0.8em;
     }
 
     .question-asked {
-        font-size: 14px;
+        font-size: 1em;
     }
 
     .answer {
-        font-size: 12px;
+        font-size: 0.8em;
     }
 }
 
@@ -228,7 +223,7 @@ body {
     }
 
     .question-asked {
-        font-size: 12px;
+        font-size: .8em;
         width: 200px;
     }
 
@@ -238,11 +233,11 @@ body {
     }
 
     .project-title {
-        font-size: 18px;
+        font-size: 1em;
     }
 
     .project-title a {
-        font-size: 11px;
+        font-size: .5em;
     }
 
     .project-about {
