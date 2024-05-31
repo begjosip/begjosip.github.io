@@ -39,6 +39,10 @@ body {
     height: calc(100% - 6em);
 }
 
+.left-container {
+    min-width: 400px;
+}
+
 .title-container {
     display: flex;
     flex-direction: column;
@@ -51,11 +55,11 @@ body {
 }
 
 .headline {
-    font-size: 3em;
+    font-size: 4rem;
 }
 
 .subheadline {
-    font-size: 1em;
+    font-size: 1rem;
     letter-spacing: 1px;
 }
 
@@ -74,7 +78,7 @@ body {
 
 .nav-item {
     display: inline-block;
-    font-size: 1em;
+    font-size: 1rem;
     margin: 0.8em;
     list-style: none;
     cursor: pointer;
@@ -115,17 +119,17 @@ body {
 .about-paragraph {
     width: 180px;
     font-weight: 300;
-    font-size: .8em;
+    font-size: 1rem;
 }
 
 .projects-subtitle {
-    font-size: 0.8em;
+    font-size: 0.8rem;
     padding: 1em 0 1em 0;
 }
 
 .project-title {
     font-weight: 600;
-    font-size: 2em;
+    font-size: 2.5rem;
     cursor: pointer;
 }
 
@@ -134,14 +138,14 @@ body {
     color: inherit;
     font-style: italic;
     font-weight: 300;
-    font-size: 1em;
+    font-size: 1rem;
 }
 
 .project-about {
-    max-width: 70%;
+    max-width: 500px;
     display: block;
     font-weight: 300;
-    font-size: 1.5em;
+    font-size: 1rem;
 }
 
 .contact {
@@ -157,12 +161,13 @@ body {
 
 .question-asked {
     font-weight: 600;
-    font-size: 1em;
+    font-size: 1rem;
 }
 
 .answer {
+    max-width: 500px;
     font-weight: 300;
-    font-size: 0.8em;
+    font-size: 1rem;
     padding-bottom: 2em;
 }
 
@@ -182,31 +187,31 @@ body {
     }
 
     .headline {
-        font-size: 2em;
+        font-size: 3rem;
     }
 
     .subheadline {
-        font-size: 1em;
+        font-size: 0.8rem;
     }
 
     .nav-item {
-        font-size: 0.8em;
+        font-size: 0.8rem;
     }
 
     .project-title {
-        font-size: 1em;
+        font-size: 2rem;
     }
 
     .project-about {
-        font-size: 0.8em;
+        font-size: 0.8rem;
     }
 
     .question-asked {
-        font-size: 1em;
+        font-size: 1rem;
     }
 
     .answer {
-        font-size: 0.8em;
+        font-size: 0.8rem;
     }
 }
 
@@ -223,7 +228,7 @@ body {
     }
 
     .question-asked {
-        font-size: .8em;
+        font-size: 0.8rem;
         width: 200px;
     }
 
@@ -233,11 +238,11 @@ body {
     }
 
     .project-title {
-        font-size: 1em;
+        font-size: 1rem;
     }
 
     .project-title a {
-        font-size: .5em;
+        font-size: 0.5rem;
     }
 
     .project-about {
