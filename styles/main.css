@@ -170,3 +170,83 @@ body {
     font-size: 14px;
     padding-bottom: 2em;
 }
+
+@media screen and (max-width: 1100px) {
+    .content {
+        height: calc(100vh - 4em);
+        width: calc(100vw - 4em);
+    }
+
+    .wrapper {
+        padding: 1em;
+        height: calc(100vh - 6em);
+    }
+
+    .left-container {
+        min-width: 280px;
+    }
+
+    .headline {
+        font-size: 42px;
+    }
+
+    .subheadline {
+        font-size: 12px;
+    }
+
+    .nav-item {
+        font-size: 12px;
+    }
+
+    .project-title {
+        font-size: 24px;
+    }
+
+    .project-about {
+        font-size: 12px;
+    }
+
+    .question-asked {
+        font-size: 14px;
+    }
+
+    .answer {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 764px) {
+    .nav-item {
+        z-index: 1000;
+    }
+
+    .displayed-content {
+        position: absolute;
+        right: 1em;
+        bottom: 1em;
+        width: 50%;
+    }
+
+    .question-asked {
+        font-size: 12px;
+        width: 200px;
+    }
+
+    .answer {
+        width: 200px;
+        padding-bottom: 0.5em;
+    }
+
+    .project-title {
+        font-size: 18px;
+    }
+
+    .project-title a {
+        font-size: 11px;
+    }
+
+    .project-about {
+        width: 200px;
+    }
+
+}
