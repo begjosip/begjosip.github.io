@@ -5,6 +5,7 @@ body {
     font-family: 'Work Sans', sans-serif;
     background-color: #000;
     color: #FFF;
+    transition: color 0.2s ease-in-out;
 }
 
 body.dark {
