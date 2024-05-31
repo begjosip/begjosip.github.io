@@ -3,13 +3,84 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="keywords" content="Josip Begić, software developer, portfolio, projects, code repositories, web development, programming">
+    <meta name="keywords"
+          content="Josip Begić, software developer, portfolio, projects, code repositories, web development, programming">
     <meta name="description"
           content="Explore the portfolio and personal website of Josip Begić, a skilled software developer dedicated to crafting innovative solutions. Dive into projects, code repositories, and more to discover the breadth of expertise and creativity.">
     <meta name="author" content="Josip Begić">
+    <meta name="google" content="notranslate">
+    <meta name="google" content="nositelinkssearchbox">
+    <link rel="stylesheet" href="./styles/main.css">
     <title>Josip Begić</title>
 </head>
 <body>
+<div class="content">
+    <div class="wrapper">
+        <!--   Title and navigation element  -->
+        <div class="left-container">
+            <div class="title-container">
+                <h1 class="headline">Josip Begić</h1>
+                <h3 class="subheadline">Software Developer, Zagreb Croatia</h3>
+            </div>
+            <nav class="navigator">
+                <ol class="nav-list">
+                    <li id="home-btn" class="nav-item active">Home&nbsp;<span>&#9830;</span></li>
+                    <li id="projects-btn" class="nav-item">Projects&nbsp;<span>&#9830;</span></li>
+                    <li id="contact-btn" class="nav-item">Contact&nbsp;<span>&#9830;</span></li>
+                    <li id="resume-btn" class="nav-item">Résumé&nbsp;<span>&#9830;</span></li>
+                    <li id="faq-btn" class="nav-item">FAQ&nbsp;<span>&#9830;</span></li>
+                </ol>
+            </nav>
+        </div>
+        <!--  Element for showing sections -->
+        <section id="home-section" class="displayed-content active">
+            <p class="about-paragraph">I'm a software developer with expertise in both back-end and front-end
+                development. Currently studying at FER ( Faculty of Electrical Engineering and Computing), focusing on
+                enhancing my technical skills.</p>
+        </section>
+        <section id="projects-section" class="displayed-content">
+            <span class="projects-subtitle">&#9830; (in development)</span>
+            <span class="project-title"><a href="https://github.com/stars/begjosip/lists/nuvolo" target="_blank">(link)</a>&nbsp;nuvolo</span>
+            <p class="project-about">Nuvolo is e-commerce microservice web application developed using Spring
+                Boot,
+                Python, Nuxt.js, PostgreSQL, Redis and Python.</p>
 
+            <span class="projects-subtitle">&#9830; (finished)</span>
+            <span class="project-title"><a href="https://github.com/begjosip/begjosip.github.io" target="_blank">(link)</a>&nbsp;Personal website</span>
+            <p class="project-about">Website hosted on GitHub pages built with plain HTML5, CSS and JavaScript.</p>
+        </section>
+        <section id="contact-section" class="displayed-content">
+            <ol class="nav-list contact">
+                <li class="nav-item"><a href="https://www.linkedin.com/in/josipbegic" target="_blank">LinkedIn</a></li>
+                <li class="nav-item"><a href="https://github.com/begjosip" target="_blank">GitHub</a></li>
+                <li class="nav-item"><a href="mailto:josipbegic57@gmail.com">josipbegic57@gmail.com</a></li>
+            </ol>
+        </section>
+        <section id="faq-section" class="displayed-content">
+            <div class="question">
+                <span class="question-asked">Where can I found your projects code?</span>
+                <p class="answer">Some of my projects are visible on <span class="underline-link">my GitHub</span>
+                    profile. By clicking <span>Projects</span> on navigation my projects will be listed. There you can
+                    find links to the repository.
+                </p>
+            </div>
+            <div class="question">
+                <span class="question-asked">Are you looking for a job?</span>
+                <p class="answer">Feel free to contact me with all the information. I am open to discuss.</p>
+            </div>
+            <div class="question">
+                <span class="question-asked">Can I use your code?</span>
+                <p class="answer">You can use my code but not for commercial use. My projects are built so I can learn
+                    new technologies and try to bring my ideas in life.</p>
+            </div>
+            <div class="question">
+                <span class="question-asked">What technologies are you using the most?</span>
+                <p class="answer">I am mostly using Java technologies for backend, React and Nuxt as frontend JavaScript
+                    frameworks and PostgreSQL for relational database.</p>
+            </div>
+        </section>
+    </div>
+</div>
+<script type="module" src="./scripts/main.js"></script>
 </body>
 </html>
