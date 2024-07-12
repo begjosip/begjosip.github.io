@@ -31,7 +31,7 @@ function handleContactClick() {
 }
 
 function handleResumeClick() {
-    window.open('../public/JosipBegicCV-2024.pdf', '_blank');
+    window.open('../public/JosipBegicCV.pdf', '_blank');
 }
 
 function handleFaqClick() {
@@ -81,7 +81,7 @@ darkThemeButton.addEventListener('click', handleDarkTheme);
 const typewriterText = "Josip Begić";
 const typewriterElement = document.getElementById('typewriter');
 
-function typeWriter(text, element, delay = 100) {
+function typeWriter(text, element, delay = 200) {
     let i = 0;
     function type() {
         if (i < text.length) {
@@ -89,7 +89,7 @@ function typeWriter(text, element, delay = 100) {
             i++;
             setTimeout(type, delay);
         } else {
-            setTimeout(hideLoader, 1000);
+            setTimeout(hideLoader, 1500);
         }
     }
     type();
