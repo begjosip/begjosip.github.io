@@ -4,33 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="keywords"
-          content="Josip Begić, software developer, portfolio, projects, code repositories, web development, programming">
+          content="Josip Begić, software engineer, portfolio, projects, code repositories, web development, programming">
     <meta name="description"
           content="Explore the portfolio and personal website of Josip Begić, a skilled software developer dedicated to crafting innovative solutions. Dive into projects, code repositories, and more to discover the breadth of expertise and creativity.">
     <meta name="author" content="Josip Begić">
     <meta name="google" content="notranslate">
     <meta name="google" content="nositelinkssearchbox">
     <link rel="stylesheet" href="./styles/main.css">
-    <link rel="icon" type="image/x-icon" href="./public/favicon.ico">
+    <link rel="icon" media="(prefers-color-scheme: light)" href="public/favicon.ico">
+    <link rel="icon" media="(prefers-color-scheme: dark)" href="public/favicon-dark.ico">
     <title>Josip Begić</title>
 </head>
-<body>
+<body class="dark">
 <div class="loader-container">
     <div class="typewriter" id="typewriter"></div>
 </div>
 <div class="content">
     <!-- Theme selector -->
     <div class="theme-selector">
-        <span class="theme"><span id="light-box" class="box"></span>&nbsp;LIGHT</span>
+        <span class="theme"><span id="light-box" class="box selected"></span>&nbsp;LIGHT</span>
         <span>&nbsp;&nbsp;&nbsp;</span>
-        <span class="theme"><span id="dark-box" class="box selected"></span>&nbsp;DARK</span>
+        <span class="theme"><span id="dark-box" class="box"></span>&nbsp;DARK</span>
     </div>
     <div class="wrapper">
         <!--   Title and navigation element  -->
         <div class="left-container">
             <div class="title-container">
                 <h1 class="headline">Josip Begić</h1>
-                <h3 class="subheadline">Software Developer, Zagreb Croatia</h3>
+                <h3 class="subheadline">Software Engineer, Croatia</h3>
             </div>
             <nav class="navigator">
                 <ol class="nav-list">
@@ -44,9 +45,9 @@
         </div>
         <!--  Element for showing sections -->
         <section id="home-section" class="displayed-content active">
-            <p class="about-paragraph">I'm a software developer with expertise in both back-end and front-end
-                development. Currently studying at FER ( Faculty of Electrical Engineering and Computing), focusing on
-                enhancing my technical skills.</p>
+            <p class="about-paragraph">I am a skilled software engineer with a strong background in both back-end and
+                front-end development. Currently, I am completing my studies at the Faculty of Electrical Engineering
+                and Computing (FER), where I am dedicated to honing my technical abilities.</p>
         </section>
         <section id="projects-section" class="displayed-content">
             <span class="projects-subtitle">&#9744; (in development)</span>
@@ -65,9 +66,9 @@
         </section>
         <section id="contact-section" class="displayed-content">
             <ol class="nav-list contact">
-                <li class="nav-item"><a href="https://www.linkedin.com/in/josipbegic" target="_blank">LinkedIn</a></li>
-                <li class="nav-item"><a href="https://github.com/begjosip" target="_blank">GitHub</a></li>
-                <li class="nav-item"><a href="mailto:josipbegic57@gmail.com">josipbegic57@gmail.com</a></li>
+                <li class="nav-item nav-contact"><a href="https://www.linkedin.com/in/josipbegic" target="_blank">in/begjosip</a></li>
+                <li class="nav-item nav-contact"><a href="https://github.com/begjosip" target="_blank">github/begjosip</a></li>
+                <li class="nav-item nav-contact"><a href="mailto:josipbegic57@gmail.com">josipbegic57@gmail.com</a></li>
             </ol>
         </section>
         <section id="faq-section" class="displayed-content">
